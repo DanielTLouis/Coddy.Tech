@@ -9,5 +9,6 @@ def fizzbuzz(n):
         return f"{n}"
 print("Welcome to FizzBuzz!")
 num = int(input())
-result = fizzbuzz(num)
-print(result)
+for i in range(1, num+1):
+  result = fizzbuzz(i)
+  print(result)
