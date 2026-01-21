@@ -1,0 +1,3 @@
+inventory = dict()
+
+print(inventory)
